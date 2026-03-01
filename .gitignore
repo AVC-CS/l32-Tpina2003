@@ -1,0 +1,6 @@
+programtest
+main
+a.out
+*.o
+*.exe
+.DS_Store
