@@ -37,7 +37,9 @@ void insertOne(double *scores, int index){
 
 // TODO: Sort scores in ascending order using insertion sort (use pointer arithmetic, no brackets)
 void sortScores(double *scores){
-
+    for(int i = 1; i < NUM_SCORES; i++){
+        insertOne(scores, i);
+    }
 }
 
 bool keyCompare(Student a, Student b, int sortKey){
